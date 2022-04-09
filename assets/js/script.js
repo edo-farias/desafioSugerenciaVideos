@@ -18,7 +18,7 @@ class Multimedia {
         return this.getUrl()
     }
     setInicio() {
-        console.log('Este método es para realizar un cambio en la URL del video')
+        return 'Este método es para realizar un cambio en la URL del video'
     }
 }
 class Reproductor extends Multimedia {
