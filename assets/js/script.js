@@ -37,7 +37,7 @@ class Reproductor extends Multimedia {
         this.getId().setAttribute('src',`${this.url}&amp;start=${tiempo}`)
     }
 }
-let musicPlayer = new Reproductor('https://www.youtube.com/embed/l_6AC2u0E4E?autoplay=1', musica)
+let musicPlayer = new Reproductor('https://www.youtube.com/embed/l_6AC2u0E4E?autoplay=0', musica)
 musicPlayer.playMultimedia()
 musicPlayer.setInicio('5')
 let moviePlayer = new Reproductor('https://www.youtube.com/embed/Vqgqze8tF-8?autoplay=0', peliculas)
